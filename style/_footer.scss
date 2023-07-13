@@ -1,11 +1,15 @@
-.footer--wrapper {
+footer {
     background-color: var(--primary-color);
+}
+
+.footer--wrapper {
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     font-size: 14px;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
 
     .footer__part1 {
         .email {
