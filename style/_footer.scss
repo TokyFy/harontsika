@@ -1,0 +1,58 @@
+.footer--wrapper {
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+    width: 100%;
+
+    .footer__part1 {
+        .email {
+            font-size: 2rem;
+            font-weight: 600;
+            padding: 1rem 0;
+        }
+
+        .CG {
+            ul {
+                display: flex;
+                gap: 1.5rem;
+            }
+        }
+    }
+
+    .footer--logo {
+        img {
+            width: 185px;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .footer__part2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        .footer--social {
+            p {
+                font-size: 2rem;
+            }
+
+            div {
+                padding: 1rem;
+                display: flex;
+                justify-content: space-between;
+                s a {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
