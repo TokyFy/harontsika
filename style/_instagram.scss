@@ -1,0 +1,31 @@
+.instagram {
+  &--photos {
+    margin-top: 2.4rem;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2.2rem;
+
+    .photo {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .instagram {
+    &--photos {
+      grid-template-columns: repeat(2 , 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 512px){
+  .instagram {
+    &--photos {
+      grid-template-columns: repeat(1 , 1fr);
+    }
+  }
+}

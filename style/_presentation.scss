@@ -1,0 +1,21 @@
+.presentation {
+  display: grid;
+  grid-template-columns: 1fr 30%;
+  gap: 4.2rem;
+
+  &--image {
+    align-self: center;
+  }
+
+}
+
+@media screen and (max-width: 1080px){
+  .presentation {
+    display: flex;
+    flex-direction: column;
+
+    &--image {
+      order: -1;
+    }
+  }
+}

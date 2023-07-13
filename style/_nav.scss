@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.2rem 0;
+  position: relative;
+
+  #Logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 3.2rem;
+  }
+
+  .navList {
+    display: flex;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--primary-color);
+    gap: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 1280px){
+  nav {
+
+    #Logo {
+      position: relative;
+      transform: none;
+      left: unset;
+      top: unset;
+    }
+
+    .navList {
+      display: none;
+    }
+  }
+}

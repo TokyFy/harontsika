@@ -1,0 +1,39 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)) , url("../public/assets/header-background.png"), lightgray 50% / cover no-repeat;
+  height: 80vh;
+  color: var(--ligth-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: .6rem;
+
+  h1 {
+    font-size: 6.4rem;
+    color: var(--ligth-color);
+  }
+
+  p {
+    margin: 3.2rem 0;
+    font-size: 2.0rem;
+  }
+
+  #header-logo {
+    width: 22rem;
+    margin-bottom: 2.4rem;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .wrapper {
+    max-width: 64rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

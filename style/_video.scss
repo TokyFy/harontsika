@@ -1,0 +1,26 @@
+.video {
+  display: grid;
+  grid-template-columns: 45% 1fr;
+  gap: 4.2rem;
+
+  &--wrapper {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 6.4rem;
+  }
+}
+
+@media screen and (max-width: 1160px){
+  .video {
+    display: flex;
+    flex-direction: column;
+  }
+}
